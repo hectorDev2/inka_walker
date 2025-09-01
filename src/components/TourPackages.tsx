@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { startTransition, useState } from "react";
 import { Link } from "react-router-dom";
 import { Clock, Users, Star } from "lucide-react";
 import { tourData } from "../data/tourData";
 import type { Tour } from "../data/tourData";
-
+import { unstable_ViewTransition as ViewTransition } from "react";
 export function TourPackages() {
   const [activeTab, setActiveTab] = useState("cusco");
 
@@ -67,11 +67,16 @@ export function TourPackages() {
               className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group"
             >
               <div className="relative overflow-hidden">
-                <img
-                  src={pkg.image}
-                  alt={pkg.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
+                <Link to={`/tour/${pkg.id}`}>
+                  <ViewTransition name={`place-image-${pkg.id}`}>
+                    <img
+                      src={pkg.image}
+                      alt={pkg.title}
+                      className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </ViewTransition>
+                </Link>
+
                 <div className="absolute top-4 right-4">
                   <div className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full font-bold text-sm">
                     {pkg.price}
@@ -112,15 +117,6 @@ export function TourPackages() {
                       {highlight}
                     </div>
                   ))}
-                </div>
-
-                {/* Miniatura simple */}
-                <div className="mb-4">
-                  <img
-                    src={pkg.gallery[0]}
-                    alt={`${pkg.title} miniatura`}
-                    className="w-full h-20 object-cover rounded"
-                  />
                 </div>
 
                 <Link
