@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import PhotoSwipeLightbox from "photoswipe/lightbox";
 import "photoswipe/style.css";
+import ViewTransition from "../shared/ViewTransitionWrapper";
 
 export function SimpleGallery(props: {
   images: {
@@ -62,18 +63,36 @@ export function SimpleGallery(props: {
       `}</style>
 
       <div className="pswp-gallery" id={galleryID}>
-        {props.images.map((image, index) => (
-          <a
-            href={image.largeURL}
-            data-pswp-width={image.width}
-            data-pswp-height={image.height}
-            key={galleryID + "-" + index}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={image.thumbnailURL} alt="" />
-          </a>
-        ))}
+        {props.images.map((image, index) => {
+          if (index == 0) {
+            return (
+              <a
+                href={image.largeURL}
+                data-pswp-width={image.width}
+                data-pswp-height={image.height}
+                key={galleryID + "-" + index}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ViewTransition name={`place-image-machu-picchu-full-day`}>
+                  <img src={image.thumbnailURL} alt="" />
+                </ViewTransition>
+              </a>
+            );
+          }
+          return (
+            <a
+              href={image.largeURL}
+              data-pswp-width={image.width}
+              data-pswp-height={image.height}
+              key={galleryID + "-" + index}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={image.thumbnailURL} alt="" />
+            </a>
+          );
+        })}
       </div>
     </>
   );

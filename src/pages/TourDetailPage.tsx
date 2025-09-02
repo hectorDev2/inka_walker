@@ -11,8 +11,6 @@ import {
 import { tourData } from "../data/tourData";
 import { SimpleGallery } from "../shared/simpleGallery";
 
-import { unstable_ViewTransition as ViewTransition } from "react";
-
 // export function TourDetailPage() {
 export function TourDetailPage() {
   const { tourId } = useParams<{ tourId: string }>();
@@ -71,13 +69,11 @@ export function TourDetailPage() {
 
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
-        <ViewTransition name={`place-image-${tour.id}`}>
-          <img
-            src={tour.heroImage}
-            alt={tour.title}
-            className="absolute inset-0 w-full h-full object-cover"
-          />
-        </ViewTransition>
+        <img
+          src={tour.heroImage}
+          alt={tour.title}
+          className="absolute inset-0 w-full h-full object-cover"
+        />
         <div
           className="absolute inset-0"
           style={{

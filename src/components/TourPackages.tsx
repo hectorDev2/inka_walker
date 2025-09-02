@@ -1,9 +1,10 @@
-import { startTransition, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Clock, Users, Star } from "lucide-react";
 import { tourData } from "../data/tourData";
 import type { Tour } from "../data/tourData";
-import { unstable_ViewTransition as ViewTransition } from "react";
+import ViewTransition from "../shared/ViewTransitionWrapper";
+
 export function TourPackages() {
   const [activeTab, setActiveTab] = useState("cusco");
 
