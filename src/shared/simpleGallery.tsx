@@ -75,7 +75,11 @@ export function SimpleGallery(props: {
                 rel="noreferrer"
               >
                 <ViewTransition name={`place-image-machu-picchu-full-day`}>
-                  <img src={image.thumbnailURL} alt="" />
+                  <img
+                    className="ransition-transform duration-500 ease-in-out hover:scale-110"
+                    src={image.thumbnailURL}
+                    alt=""
+                  />
                 </ViewTransition>
               </a>
             );
@@ -89,7 +93,11 @@ export function SimpleGallery(props: {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={image.thumbnailURL} alt="" />
+              <img
+                className="transition-transform duration-500 ease-in-out hover:scale-105"
+                src={image.thumbnailURL}
+                alt=""
+              />
             </a>
           );
         })}
