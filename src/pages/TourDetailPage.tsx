@@ -82,8 +82,8 @@ export function TourDetailPage() {
           }}
         ></div>
 
-        <div className="relative z-10 h-full flex items-center justify-center text-center px-6">
-          <div className="max-w-4xl">
+        <div className="relative bg-opacity-50 z-10 h-full flex items-center justify-center text-center px-6">
+          <div className="max-w-4xl bg-opacity-50">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 tracking-wider uppercase">
               {tour.title}
             </h1>

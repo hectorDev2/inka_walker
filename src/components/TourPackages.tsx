@@ -68,7 +68,7 @@ export function TourPackages() {
               className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group"
             >
               <div className="relative overflow-hidden">
-                <Link to={`/tour/${pkg.id}`}>
+                <Link to={`/tour/${pkg.id}`} viewTransition>
                   <ViewTransition name={`place-image-${pkg.id}`}>
                     <img
                       src={pkg.image}
