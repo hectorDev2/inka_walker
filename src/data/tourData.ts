@@ -30,10 +30,8 @@ export const tourData: Tour[] = [
     duration: "1 Día",
     group: "Mín. 10 pax",
     region: "Cusco",
-    image:
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/public/images/machupicchu-uno.jpeg",
+    heroImage: "/public/images/machupicchu-hero.jpg",
     highlights: [
       "Tren panorámico",
       "Guía bilingüe",
@@ -68,12 +66,14 @@ export const tourData: Tour[] = [
       "Asistencia durante todo el tour",
     ],
     gallery: [
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/public/images/machupicchu-uno.jpeg",
+      "/public/images/machupicchu/gallery/1.jpg",
+      "/public/images/machupicchu/gallery/2.jpg",
+      "/public/images/machupicchu/gallery/3.jpg",
+      "/public/images/machupicchu/gallery/4.jpeg",
+      "/public/images/machupicchu/gallery/5.jpeg",
+      "/public/images/machupicchu/gallery/6.jpeg",
+      "/public/images/machupicchu/gallery/7.jpeg",
     ],
     discount: "Descuento 10% para grupos de promoción",
   },
