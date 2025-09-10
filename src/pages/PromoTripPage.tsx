@@ -13,20 +13,23 @@ import { SimpleGallery } from "../shared/simpleGallery";
 export function PromoTripPage() {
   // Imágenes ilustrativas por región (mini grid por bloque)
   const regionPhotos: Record<string, string[]> = {
+    // Sur: Arequipa, Puno, playas del sur
     sur: [
-      "https://images.unsplash.com/photo-1546530967-21531b891dd4?q=80&w=1600&auto=format&fit=crop", // Machu Picchu
-      "https://images.unsplash.com/photo-1596118856868-6c8ffef5ad6f?q=80&w=1600&auto=format&fit=crop", // Arequipa
-      "https://images.unsplash.com/photo-1591337586885-3df747a0c474?q=80&w=1600&auto=format&fit=crop", // Lago Titicaca
+      "/images/promo/arequipa.jpeg",
+      "/images/promo/puno.jpeg",
+      "/images/promo/mollendo-arequipa.jpeg",
     ],
+    // Norte: Playas del norte, Chiclayo/arqueología
     norte: [
-      "https://images.unsplash.com/photo-1617166012213-d9f6d2dc3e59?q=80&w=1600&auto=format&fit=crop", // Chan Chan/Trujillo (representativa)
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1600&auto=format&fit=crop", // Playas del norte
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop", // Dunas / desierto norte
+      "/images/promo/norte.jpeg",
+      "/images/promo/norte-chiclayo.jpeg",
+      "/images/promo/promo-feliz.jpeg", // genérica de grupo
     ],
+    // Centro: Paracas/Islas Ballestas; (completado con imágenes genéricas)
     centro: [
-      "https://images.unsplash.com/photo-1544989164-31dc3c645987?q=80&w=1600&auto=format&fit=crop", // Circuito del Agua (referencial nocturna)
-      "https://images.unsplash.com/photo-1544988531-28cbde9f2a6e?q=80&w=1600&auto=format&fit=crop", // Paracas
-      "https://images.unsplash.com/photo-1584727638161-dfbbde0fbab8?q=80&w=1600&auto=format&fit=crop", // Huacachina
+      "/images/promo/puerto-ballesta.jpeg",
+      "/images/promo/promo-virgen-del-carmen.jpeg",
+      "/images/promo/arequipa-3.jpeg", // si deseas, podemos reemplazar por imagen de Lima cuando la tengas
     ],
   };
 
@@ -100,112 +103,88 @@ export function PromoTripPage() {
   // Galería principal de Viaje de Promo (usa SimpleGallery)
   const promoGalleryImages = [
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1546530967-21531b891dd4?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1546530967-21531b891dd4?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/puno.jpeg",
+      thumbnailURL: "/images/promo/puno.jpeg",
       width: 1920,
       height: 1280,
-      description: "Machu Picchu – Momento cumbre del Viaje de Promo",
+      description: "Puno – Lago Titicaca y cultura viva",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1591337586885-3df747a0c474?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1591337586885-3df747a0c474?q=80&w=800&auto=format&fit=crop",
-      width: 1920,
-      height: 1280,
-      description: "Islas Uros – Cultura viva en el Titicaca",
-    },
-    {
-      largeURL:
-        "https://images.unsplash.com/photo-1596118856868-6c8ffef5ad6f?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1596118856868-6c8ffef5ad6f?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/arequipa.jpeg",
+      thumbnailURL: "/images/promo/arequipa.jpeg",
       width: 1920,
       height: 1280,
       description: "Arequipa – Atardeceres y casonas coloniales",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1617166012213-d9f6d2dc3e59?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1617166012213-d9f6d2dc3e59?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/promo-feliz.jpeg",
+      thumbnailURL: "/images/promo/promo-feliz.jpeg",
       width: 1920,
       height: 1280,
-      description: "Norte – Arqueología y adobe milenario",
+      description: "Foto grupal – Recuerdos que perduran",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/norte.jpeg",
+      thumbnailURL: "/images/promo/norte.jpeg",
       width: 1920,
       height: 1280,
-      description: "Playas del norte – Tarde de integración",
+      description: "Chiclayo playas del norte",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/mollendo-arequipa.jpeg",
+      thumbnailURL: "/images/promo/mollendo-arequipa.jpeg",
       width: 1920,
       height: 1280,
-      description: "Dunas – Aventura y sandboard",
+      description: "Mollendo - Arequipa playas del sur",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1544989164-31dc3c645987?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1544989164-31dc3c645987?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/arequipa-2.jpeg",
+      thumbnailURL: "/images/promo/arequipa-2.jpeg",
       width: 1920,
       height: 1280,
-      description: "Lima nocturna – Aguas danzantes",
+      description: "Arequipa - ciudad blanca",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1544988531-28cbde9f2a6e?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1544988531-28cbde9f2a6e?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/promo-virgen-del-carmen.jpeg",
+      thumbnailURL: "/images/promo/promo-virgen-del-carmen.jpeg",
       width: 1920,
       height: 1280,
-      description: "Paracas – Islas Ballestas",
+      description: "Promo Colegio Virgen del Carmen",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1584727638161-dfbbde0fbab8?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1584727638161-dfbbde0fbab8?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/titicaca.jpeg",
+      thumbnailURL: "/images/promo/titicaca.jpeg",
       width: 1920,
       height: 1280,
-      description: "Huacachina – Buggies al atardecer",
+      description: "Titicaca - Lago navegable más alto del mundo",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/puerto-ballesta.jpeg",
+      thumbnailURL: "/images/promo/puerto-ballesta.jpeg",
       width: 1920,
       height: 1280,
-      description: "Andes – Caminatas y miradores",
+      description: "Puerto Ballesta - Aventura en el mar",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/arequipa-3.jpeg",
+      thumbnailURL: "/images/promo/arequipa-3.jpeg",
       width: 1920,
       height: 1280,
-      description: "Amaneceres de promo",
+      description: "Arequipa - Miradores naturales",
     },
     {
-      largeURL:
-        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1920&auto=format&fit=crop",
-      thumbnailURL:
-        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop",
+      largeURL: "/images/promo/norte-chiclayo.jpeg",
+      thumbnailURL: "/images/promo/norte-chiclayo.jpeg",
       width: 1920,
       height: 1280,
-      description: "Grupo – Foto oficial del viaje",
+      description: "Norte - Chiclayo y sus misterios",
+    },
+    {
+      largeURL: "/images/promo/titicaca-2.jpeg",
+      thumbnailURL: "/images/promo/titicaca-2.jpeg",
+      width: 1920,
+      height: 1280,
+      description: "Titicaca - Foto oficial del viaje",
     },
   ];
 
