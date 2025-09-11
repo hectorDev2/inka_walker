@@ -48,6 +48,13 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
                 {item.label}
               </button>
             ))}
+            <Link
+              to="/viaje-de-promo"
+              className="text-sm font-bold tracking-wide uppercase px-4 py-2 rounded-lg"
+              style={{ backgroundColor: "#D6FF57", color: "#0F1513" }}
+            >
+              VIAJE DE PROMO
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,6 +90,14 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
                   {item.label}
                 </button>
               ))}
+              <Link
+                to="/viaje-de-promo"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-left text-sm font-bold tracking-wide uppercase px-4 py-2 rounded-lg"
+                style={{ backgroundColor: "#D6FF57", color: "#0F1513" }}
+              >
+                VIAJE DE PROMO
+              </Link>
             </div>
           </div>
         )}

@@ -2,14 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@view-transition{
-  navigation: auto;
-}
 
-::view-transition-group(*){
-  animation-duration: 5s;
-
-}
 body {
   font-family: 'fantasy', sans-serif;
 }
