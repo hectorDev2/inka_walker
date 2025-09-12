@@ -30,8 +30,8 @@ export const tourData: Tour[] = [
     duration: "1 Día",
     group: "Mín. 10 pax",
     region: "Cusco",
-    image: "/public/images/machupicchu-uno.jpeg",
-    heroImage: "/public/images/machupicchu-hero.jpg",
+    image: "/images/machupicchu-uno.jpeg",
+    heroImage: "/images/machupicchu-hero.jpg",
     highlights: [
       "Tren panorámico",
       "Guía bilingüe",
