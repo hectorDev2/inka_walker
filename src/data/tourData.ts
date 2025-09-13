@@ -85,8 +85,7 @@ export const tourData: Tour[] = [
     duration: "2D/1N",
     group: "Mín. 10 pax",
     region: "Cusco",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "/images/machupicchu-2.jpg",
     heroImage:
       "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
     highlights: [
@@ -134,12 +133,11 @@ export const tourData: Tour[] = [
       "Desayuno día 2",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/chinchero.jpg",
+      "/images/pisac.jpg",
+      "/images/camino-inca.jpg",
+      "/images/machupicchu.jpg",
+      "/images/oso-machupicchu.jpg",
     ],
   },
   {
