@@ -123,6 +123,10 @@ export function TourPackages() {
                 <Link
                   to={`/tour/${pkg.id}`}
                   className="w-full bg-green-500 text-white py-3 rounded-lg font-bold uppercase tracking-wide hover:bg-green-400 transition-colors duration-300 block text-center"
+                  style={{
+                    backgroundColor: "rgb(214, 255, 87)",
+                    color: "rgb(15, 21, 19)",
+                  }}
                 >
                   Más Información
                 </Link>
