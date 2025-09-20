@@ -568,8 +568,7 @@ export const tourData: Tour[] = [
     group: "Cultural",
     region: "Costa",
     image: "/images/ica/ica-vinos.jpg",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    heroImage: "/images/ica/ica-vinos.jpg",
     highlights: ["Tour bodegas", "Museos", "Degustaciones", "Ciudad"],
     description: "Catas y museos con transporte incluido.",
     fullDescription:
