@@ -1,5 +1,4 @@
-import React from 'react';
-import { Phone, MapPin, Mail, MessageCircle, Clock } from 'lucide-react';
+import { Phone, MapPin, Mail, MessageCircle, Clock } from "lucide-react";
 
 export function Contact() {
   return (
@@ -11,7 +10,8 @@ export function Contact() {
             <span className="block text-yellow-400">Con Nosotros</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            ¿Listo para tu aventura? Contáctanos ahora y personaliza tu viaje de promoción.
+            ¿Listo para tu aventura? Contáctanos ahora y personaliza tu viaje de
+            promoción.
           </p>
         </div>
 
@@ -27,7 +27,8 @@ export function Contact() {
                   WhatsApp Directo
                 </h3>
                 <p className="text-gray-400 mb-3">
-                  Respuesta inmediata para consultas y cotizaciones personalizadas.
+                  Respuesta inmediata para consultas y cotizaciones
+                  personalizadas.
                 </p>
                 <a
                   href="https://wa.me/51942299911"
@@ -52,9 +53,7 @@ export function Contact() {
                 <p className="text-gray-400 mb-3">
                   Nos ubicamos en el corazón del turismo peruano.
                 </p>
-                <p className="text-white font-semibold">
-                  Cusco, Perú
-                </p>
+                <p className="text-white font-semibold">Cusco, Perú</p>
               </div>
             </div>
 
@@ -90,9 +89,13 @@ export function Contact() {
                   Estamos disponibles para ayudarte con tu viaje.
                 </p>
                 <div className="text-white">
-                  <p className="font-semibold">Lunes - Viernes: 8:00 AM - 8:00 PM</p>
+                  <p className="font-semibold">
+                    Lunes - Viernes: 8:00 AM - 8:00 PM
+                  </p>
                   <p className="font-semibold">Sábados: 9:00 AM - 6:00 PM</p>
-                  <p className="text-gray-400">WhatsApp 24/7 para emergencias</p>
+                  <p className="text-gray-400">
+                    WhatsApp 24/7 para emergencias
+                  </p>
                 </div>
               </div>
             </div>
@@ -104,22 +107,34 @@ export function Contact() {
               ¡Reserva Ahora!
             </h3>
             <p className="text-gray-800 text-lg mb-8 leading-relaxed">
-              Paquetes especiales para grupos estudiantiles con descuentos por volumen. 
-              Guías expertos y transporte seguro garantizado.
+              Paquetes especiales para grupos estudiantiles con descuentos por
+              volumen. Guías expertos y transporte seguro garantizado.
             </p>
-            
+
             <div className="space-y-4 mb-8">
               <div className="bg-white/20 p-4 rounded-xl">
-                <h4 className="font-bold text-gray-900 mb-2">✓ Empresa Formal Registrada</h4>
-                <p className="text-gray-800 text-sm">SUNAT y Transportes - Seguridad garantizada</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  ✓ Empresa Formal Registrada
+                </h4>
+                <p className="text-gray-800 text-sm">
+                  SUNAT y Transportes - Seguridad garantizada
+                </p>
               </div>
               <div className="bg-white/20 p-4 rounded-xl">
-                <h4 className="font-bold text-gray-900 mb-2">✓ Descuentos Especiales</h4>
-                <p className="text-gray-800 text-sm">Hasta 15% de descuento para grupos grandes</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  ✓ Descuentos Especiales
+                </h4>
+                <p className="text-gray-800 text-sm">
+                  Hasta 15% de descuento para grupos grandes
+                </p>
               </div>
               <div className="bg-white/20 p-4 rounded-xl">
-                <h4 className="font-bold text-gray-900 mb-2">✓ Experiencia Garantizada</h4>
-                <p className="text-gray-800 text-sm">Más de 10 años en turismo educativo</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  ✓ Experiencia Garantizada
+                </h4>
+                <p className="text-gray-800 text-sm">
+                  Más de 10 años en turismo educativo
+                </p>
               </div>
             </div>
 
