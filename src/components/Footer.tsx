@@ -1,5 +1,5 @@
-import React from 'react';
-import { Mountain, Facebook, Instagram, Globe, Mail } from 'lucide-react';
+import React from "react";
+import { Mountain, Facebook, Instagram, Globe, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -15,13 +15,13 @@ export function Footer() {
               </span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Empresa formal registrada en SUNAT y Transportes, especializada en viajes de promoción, 
-              pasantías y grupos locales, nacionales e internacionales. Experiencia garantizada en 
-              Cusco y todo el Perú.
+              Empresa formal registrada en SUNAT y Transportes, especializada en
+              viajes de promoción, pasantías y grupos locales, nacionales e
+              internacionales. Experiencia garantizada en Cusco y todo el Perú.
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/MARINATHEINKAWALKER"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-yellow-400 hover:text-gray-900 transition-colors duration-300"
               >
                 <Facebook className="h-5 w-5" />
@@ -54,22 +54,34 @@ export function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors"
+                >
                   Viajes de Promoción
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors"
+                >
                   Pasantías Educativas
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors"
+                >
                   Grupos Corporativos
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors"
+                >
                   Tours Nacionales
                 </a>
               </li>
@@ -109,13 +121,22 @@ export function Footer() {
               © 2024 Inka Walker Turismo. Todos los derechos reservados.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-yellow-400 transition-colors"
+              >
                 Términos y Condiciones
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-yellow-400 transition-colors"
+              >
                 Política de Privacidad
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-yellow-400 transition-colors"
+              >
                 Cancelaciones
               </a>
             </div>

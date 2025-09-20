@@ -14,7 +14,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto mt-24 md:mt-32 lg:mt-36">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-wider uppercase">
           Viajes de Promoción
           <span className="block text-yellow-400">Inolvidables</span>
