@@ -26,8 +26,18 @@
       content="#0b132b"
       media="(prefers-color-scheme: dark)"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Se eliminan fuentes externas para forzar el uso de 'fantasy' -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <!-- Evitar auto-link en iOS para teléfonos/emails -->
+    <meta
+      name="format-detection"
+      content="telephone=no, email=no, address=no"
+    />
+    <!-- Color por defecto para navegadores que no soportan media queries en theme-color -->
+    <meta name="theme-color" content="#0b132b" />
+    <!-- Se eliminan fuentes externas para forzar el uso de 'fantasy' -->
     <link href="./src/index.css" rel="stylesheet" />
     <title>Inka Walker Tourism Application</title>
   </head>

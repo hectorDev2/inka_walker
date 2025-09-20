@@ -3,6 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    /* Evita auto-escalado de texto en iOS/Android webviews */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    /* Fuerza esquema claro para evitar auto-darkening */
+    color-scheme: light;
+    /* Elimina highlight azul en taps */
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-synthesis-weight: none;
+  }
   *,
   ::before,
   ::after {

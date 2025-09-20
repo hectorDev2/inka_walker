@@ -1,6 +1,22 @@
 import { MapPin, Phone } from "lucide-react";
 
-export function Hero() {
+type HeroProps = {
+  onNavigate?: (section: string) => void;
+  whatsappPhone?: string; // e.g., "51942299911"
+};
+
+export function Hero({ onNavigate, whatsappPhone = "51942299911" }: HeroProps) {
+  const handleViewPackages = () => onNavigate?.("packages");
+  const handleWhatsApp = () => {
+    const msg = encodeURIComponent(
+      "Hola, me gustaría información sobre sus tours."
+    );
+    const url = `https://wa.me/${whatsappPhone}?text=${msg}`;
+    const win = window.open(url, "_blank", "noopener,noreferrer");
+    if (!win) {
+      window.location.href = url;
+    }
+  };
   return (
     <section className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-28 pb-12 sm:pb-16">
       {/* Background Image */}
@@ -38,10 +54,18 @@ export function Hero() {
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 md:gap-6 mt-6 mb-8 sm:mt-4 sm:mb-0 px-4 sm:px-0">
-          <button className="bg-yellow-400 text-gray-900 px-3 py-2 sm:px-5 sm:py-2.5 md:px-8 md:py-4 rounded text-xs sm:text-sm md:text-base leading-tight font-semibold md:font-bold normal-case md:uppercase tracking-normal sm:tracking-wide hover:bg-yellow-300 transition-all duration-300 md:transform md:hover:scale-105">
+          <button
+            onClick={handleViewPackages}
+            aria-label="Ver paquetes"
+            className="bg-yellow-400 text-gray-900 px-3 py-2 sm:px-5 sm:py-2.5 md:px-8 md:py-4 rounded text-xs sm:text-sm md:text-base leading-tight font-semibold md:font-bold normal-case md:uppercase tracking-normal sm:tracking-wide hover:bg-yellow-300 transition-all duration-300 md:transform md:hover:scale-105"
+          >
             Ver Paquetes
           </button>
-          <button className="bg-gray-800 text-white px-3 py-2 sm:px-5 sm:py-2.5 md:px-8 md:py-4 rounded text-xs sm:text-sm md:text-base leading-tight font-semibold md:font-bold normal-case md:uppercase tracking-normal sm:tracking-wide border border-gray-600 hover:bg-gray-700 transition-all duration-300 md:transform md:hover:scale-105">
+          <button
+            onClick={handleWhatsApp}
+            aria-label="Contactar por WhatsApp"
+            className="bg-gray-800 text-white px-3 py-2 sm:px-5 sm:py-2.5 md:px-8 md:py-4 rounded text-xs sm:text-sm md:text-base leading-tight font-semibold md:font-bold normal-case md:uppercase tracking-normal sm:tracking-wide border border-gray-600 hover:bg-gray-700 transition-all duration-300 md:transform md:hover:scale-105"
+          >
             Contactar Ahora
           </button>
         </div>
