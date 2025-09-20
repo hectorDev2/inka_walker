@@ -39,13 +39,13 @@ export function TourPackages() {
         </div>
 
         {/* Tabs */}
-        <div className="flex justify-center mb-12">
-          <div className="flex bg-gray-800 rounded-xl p-2 gap-2">
+        <div className="mb-12">
+          <div className="flex bg-gray-800 rounded-xl p-2 gap-2 w-full overflow-x-auto md:overflow-visible flex-nowrap md:flex-wrap justify-start md:justify-center">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-8 py-4 rounded-lg font-bold uppercase tracking-wide transition-all duration-300 ${
+                className={`flex-shrink-0 px-4 py-3 sm:px-6 sm:py-3 md:px-8 md:py-4 text-sm sm:text-base rounded-lg font-bold uppercase tracking-wide transition-all duration-300 ${
                   activeTab === tab.id
                     ? "bg-yellow-400 text-gray-900"
                     : "text-gray-400 hover:text-white hover:bg-gray-700"
