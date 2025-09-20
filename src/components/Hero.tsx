@@ -1,7 +1,6 @@
 import { MapPin, Phone } from "lucide-react";
 
 export function Hero() {
-
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -10,7 +9,7 @@ export function Hero() {
         style={{
           backgroundImage: 'url("/images/machupicchu-hero.jpg")',
         }}
-  >
+      >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/60"></div>
       </div>
 
