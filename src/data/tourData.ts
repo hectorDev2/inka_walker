@@ -602,7 +602,7 @@ export const tourData: Tour[] = [
       "/images/ica/tacama-vinos.jpg",
       "/images/ica/tacama4.webp",
       "/images/ica/ica-vinos.jpg",
-      "/images/ica/RUTA-DEL-PISCO-VISITA-A-LOS-VIÑEDOS.jpg",
+      "/images/ica/pasajes-a-ica.jpg",
       "/images/ica/ruinas-ica.jpg",
       "/images/ica/the-canyon-of-the-lost-in-ica-a-hidden-wonder-in-peru-503.jpg",
       "/images/ica/Ica-Huacachina-Buggies-750x410.jpg",
