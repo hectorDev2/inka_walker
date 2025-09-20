@@ -1,4 +1,3 @@
-import React from "react";
 import { Mountain, Facebook, Instagram, Globe, Mail } from "lucide-react";
 
 export function Footer() {
