@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body {
-  font-family: 'MedievalSharp', 'Papyrus', 'Copperplate', fantasy, sans-serif;
+@layer base {
+  *,
+  ::before,
+  ::after {
+    font-family: fantasy !important;
+  }
+  ::placeholder {
+    font-family: fantasy !important;
+  }
 }
