@@ -470,10 +470,8 @@ export const tourData: Tour[] = [
     duration: "1 Día",
     group: "Naturaleza",
     region: "Costa",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/paracas/ballestas-islands-tour-16d-1.jpg",
+    heroImage: "/images/paracas/paracas-2023.desktop.jpg",
     highlights: [
       "Leones marinos",
       "Pingüinos",
@@ -555,12 +553,12 @@ export const tourData: Tour[] = [
       "Seguro de accidentes",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/huacachina/huacachina-hero.jpg",
+      "/images/huacachina/huacachina-walking.jpg",
+      "/images/huacachina/huacachina-traveling-in-sand.jpg",
+      "/images/huacachina/huacachina-sandboarding.jpg",
+      "/images/huacachina/huacachina-sandboarding-3.jpg",
+      "/images/huacachina/Sandboarding-Huacachina-2.jpg",
     ],
   },
   {
