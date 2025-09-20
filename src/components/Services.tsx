@@ -1,27 +1,30 @@
-import React from 'react';
-import { Users, Shield, Award, Globe } from 'lucide-react';
+import { Users, Shield, Award, Globe } from "lucide-react";
 
 export function Services() {
   const services = [
     {
       icon: Users,
-      title: 'Grupos Especializados',
-      description: 'Viajes diseñados para promociones estudiantiles, pasantías y grupos corporativos.',
+      title: "Grupos Especializados",
+      description:
+        "Viajes diseñados para promociones estudiantiles, pasantías y grupos corporativos.",
     },
     {
       icon: Shield,
-      title: 'Empresa Formal',
-      description: 'Registrada en SUNAT y Transportes. Seguridad y confianza garantizadas.',
+      title: "Empresa Formal",
+      description:
+        "Registrada en SUNAT y Transportes. Seguridad y confianza garantizadas.",
     },
     {
       icon: Award,
-      title: 'Guías Expertos',
-      description: 'Personal altamente calificado con amplia experiencia en turismo educativo.',
+      title: "Guías Expertos",
+      description:
+        "Personal altamente calificado con amplia experiencia en turismo educativo.",
     },
     {
       icon: Globe,
-      title: 'Cobertura Nacional',
-      description: 'Servicios en Cusco, Sur del Perú, Costa y destinos internacionales.',
+      title: "Cobertura Nacional",
+      description:
+        "Servicios en Cusco, Sur del Perú, Costa y destinos internacionales.",
     },
   ];
 
@@ -34,7 +37,8 @@ export function Services() {
             <span className="block text-yellow-400">Inka Walker?</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Experiencia garantizada en cada destino con descuentos especiales para grupos estudiantiles.
+            Experiencia garantizada en cada destino con descuentos especiales
+            para grupos estudiantiles.
           </p>
         </div>
 

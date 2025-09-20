@@ -1,4 +1,3 @@
-import React from "react";
 import { MapPin, Phone } from "lucide-react";
 
 export function Hero() {
@@ -8,8 +7,7 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage:
-            'url("https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")',
+          backgroundImage: 'url("/images/machupicchu-hero.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/60"></div>

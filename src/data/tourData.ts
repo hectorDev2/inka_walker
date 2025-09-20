@@ -85,8 +85,7 @@ export const tourData: Tour[] = [
     duration: "2D/1N",
     group: "Mín. 10 pax",
     region: "Cusco",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "/images/machupicchu-2.jpg",
     heroImage:
       "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
     highlights: [
@@ -134,12 +133,11 @@ export const tourData: Tour[] = [
       "Desayuno día 2",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/chinchero.jpg",
+      "/images/pisac.jpg",
+      "/images/camino-inca.jpg",
+      "/images/machupicchu.jpg",
+      "/images/oso-machupicchu.jpg",
     ],
   },
   {
@@ -150,10 +148,8 @@ export const tourData: Tour[] = [
     duration: "1 Día",
     group: "Grupos",
     region: "Cusco",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/valle-sagrado/chinchero-cusco.webp",
+    heroImage: "/images/valle-sagrado/pisac-01.jpeg",
     highlights: [
       "Pisac, Ollantaytambo",
       "Almuerzo VIP",
@@ -188,12 +184,17 @@ export const tourData: Tour[] = [
       "Actividades interactivas",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/valle-sagrado/chinchero-cusco.webp",
+      "/images/valle-sagrado/chinchero.jpg",
+      "/images/valle-sagrado/moray-01.jpg",
+      "/images/valle-sagrado/ollantaytambo-city.jpeg",
+      "/images/valle-sagrado/ollantaytambo.jpg",
+      "/images/valle-sagrado/ollantaytambo.png",
+      "/images/valle-sagrado/pisac-01.jpeg",
+      "/images/valle-sagrado/pisac-02.jpg",
+      "/images/valle-sagrado/pisac-03.jpeg",
+      "/images/valle-sagrado/taller-textil.avif",
+      "/images/valle-sagrado/taray.jpg",
     ],
   },
   {
@@ -204,10 +205,8 @@ export const tourData: Tour[] = [
     duration: "2 Días",
     group: "Aventureros",
     region: "Cusco",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/humantay/humantay-1.jpg",
+    heroImage: "/images/humantay/vinicunca.jpg",
     highlights: [
       "Montaña Vinicunca",
       "Laguna Humantay",
@@ -255,12 +254,13 @@ export const tourData: Tour[] = [
       "Bastones de trekking",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/humantay/humantay-1.jpg",
+      "/images/humantay/vinicunca.jpg",
+      "/images/humantay/mollepata.jpg",
+      "/images/humantay/mollepata-1.jpg",
+      "/images/humantay/sacsayhuaman.jpg",
+      "/images/humantay/sacsayhuaman-2.jpg",
+      "/images/humantay/corikancha.jpg",
     ],
   },
   // Sur Tours
@@ -272,10 +272,8 @@ export const tourData: Tour[] = [
     duration: "3D/2N",
     group: "Grupos",
     region: "Sur",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/arequipa/arco.jpg",
+    heroImage: "/images/arequipa/mansion-del-fundador-2.jpg",
     highlights: [
       "Volcanes",
       "Conventos",
@@ -326,12 +324,21 @@ export const tourData: Tour[] = [
       "Entradas incluidas",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/arequipa/arequipa.webp",
+      "/images/arequipa/catedral.jpg",
+      "/images/arequipa/mansion.jpg",
+      "/images/arequipa/mansion-del-fundador.jpg",
+      "/images/arequipa/mansion-del-fundador-2.jpg",
+      "/images/arequipa/molino.jpg",
+      "/images/arequipa/molino-de-sabandia.jpg",
+      "/images/arequipa/mirador.jpeg",
+      "/images/promo/arequipa-3.jpeg",
+
+      "/images/arequipa/mirador-de-los-volcanes.jpeg",
+      "/images/arequipa/museo.jpeg",
+      "/images/arequipa/volcan.jpg",
+      "/images/arequipa/arco.jpg",
+      "/images/promo/arequipa-2.jpeg",
     ],
   },
   {
@@ -342,10 +349,8 @@ export const tourData: Tour[] = [
     duration: "2D/1N",
     group: "Cultural",
     region: "Sur",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/titicaca/taquile.jpg",
+    heroImage: "/images/titicaca/puno-header.jpg",
     highlights: [
       "Islas Uros",
       "Taquile",
@@ -388,12 +393,14 @@ export const tourData: Tour[] = [
       "Show folklórico",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/promo/titicaca.jpeg",
+      "/images/titicaca/titicaca.jpg",
+      "/images/titicaca/uros.jpg",
+      "/images/titicaca/taquile.jpg",
+      "/images/titicaca/mirador-puno.jpg",
+      "/images/titicaca/almuerzo.jpg",
+      "/images/titicaca/puno-header.jpg",
+      "/images/promo/titicaca-2.jpeg",
     ],
   },
   {
@@ -404,10 +411,8 @@ export const tourData: Tour[] = [
     duration: "2D/1N",
     group: "Relax",
     region: "Sur",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/moquegua/ilo-2.avif",
+    heroImage: "/images/moquegua/ilo-paranomico.jpg",
     highlights: ["Tour bodegas", "Playa en Ilo", "Degustaciones", "Historia"],
     description: "Viñedos, historia y mar con catas incluidas.",
     fullDescription:
@@ -445,12 +450,15 @@ export const tourData: Tour[] = [
       "Almuerzo marino día 2",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/moquegua/plaza-de-armas.jpg",
+      "/images/moquegua/bodegas-contisuyo.jpg",
+      "/images/moquegua/degustacion-vinos.jpg",
+      "/images/moquegua/ilo-1.jpg",
+      "/images/moquegua/ilo-2.avif",
+      "/images/moquegua/ilo-paranomico.jpg",
+      "/images/moquegua/Playas-de-Ilo-en-Moquegua.jpg",
+      "/images/moquegua/circuito_ilo_playas.jpg",
+      "/images/moquegua/mirador-ilo.webp",
     ],
   },
   // Costa Tours
@@ -462,10 +470,8 @@ export const tourData: Tour[] = [
     duration: "1 Día",
     group: "Naturaleza",
     region: "Costa",
-    image:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-    heroImage:
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop",
+    image: "/images/paracas/ballestas-islands-tour-16d-1.jpg",
+    heroImage: "/images/paracas/paracas-2023.desktop.jpg",
     highlights: [
       "Leones marinos",
       "Pingüinos",
@@ -499,12 +505,13 @@ export const tourData: Tour[] = [
       "Binoculares para observación",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/paracas/paracas.jpg",
+      "/images/paracas/islas-ballestas.jpg",
+      "/images/paracas/ballestas-islands-tour-16d-1.jpg",
+      "/images/paracas/pinguinos.jpg",
+      "/images/paracas/Reserva-Nacional-de-Paracas-3.jpg",
+      "/images/paracas/playa-paracas.jpg",
+      "/images/paracas/paracas-2023.desktop.jpg",
     ],
   },
   {
@@ -546,12 +553,12 @@ export const tourData: Tour[] = [
       "Seguro de accidentes",
     ],
     gallery: [
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
-      "https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
+      "/images/huacachina/huacachina-hero.jpg",
+      "/images/huacachina/huacachina-walking.jpg",
+      "/images/huacachina/huacachina-traveling-in-sand.jpg",
+      "/images/huacachina/huacachina-sandboarding.jpg",
+      "/images/huacachina/huacachina-sandboarding-3.jpg",
+      "/images/huacachina/Sandboarding-Huacachina-2.jpg",
     ],
   },
   {
